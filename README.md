@@ -1,17 +1,16 @@
 # Robust Multi-Image Stitching & Panorama Generation
 
-A computer vision project for automatic pairwise and multi-image panorama generation.
+Automatic pairwise and multi-image panorama generation based on feature matching and homography estimation.
 
 ## Features
 
 - SIFT feature extraction
 - FLANN feature matching
-- Lowe's ratio test
 - RANSAC homography estimation
 - Image matching graph
-- Global homography propagation
+- Global image alignment
 - Perspective warping
-- Weighted image blending
+- Weighted blending
 
 ## Tech Stack
 
@@ -30,9 +29,3 @@ Python · OpenCV · NumPy · NetworkX
 pip install -r requirements.txt
 python two_image_stitching.py
 python multi_image_stitching.py
-
-
-## Author
-
-Jinghan Zheng
-Nanjing University
