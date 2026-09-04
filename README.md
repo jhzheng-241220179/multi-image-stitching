@@ -29,7 +29,10 @@ Python · OpenCV · NumPy · NetworkX
 ```bash
 pip install -r requirements.txt
 python two_image_stitching.py
-Author
+python multi_image_stitching.py
+
+
+## Author
 
 Jinghan Zheng
 Nanjing University
